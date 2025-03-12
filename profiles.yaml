@@ -1,0 +1,10 @@
+profiles:
+- name: engineers  # New profile
+  contributors:
+  - name: shahad
+    role: admin
+  - name: ahmed
+    role: edit
+  - name: amjad
+    role: view
+
