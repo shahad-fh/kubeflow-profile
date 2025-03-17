@@ -5,7 +5,8 @@ profiles:
     name: admin
   resources:
     hard:
-      limits.cpu = "1"
+      limits:
+        cpu: "1"
   contributors:
   - name: shahd
     role: admin
@@ -23,3 +24,4 @@ profiles:
   - name: jomana
     role: edit
   resources: {}
+
