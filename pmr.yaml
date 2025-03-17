@@ -1,27 +1,25 @@
 profiles:
-  - name: group1
-    owner:
-      kind: User
-      name: admin
-    resources:
-      hard:
-        limits.cpu: "1"
-    contributors:
-      - name: shahad
-        role: admin
-      - name: ahmed
-        role: edit
-      - name: raghad
-        role: view
-
-  - name: group2
-    owner:
-      kind: User
-      name: admin
-    contributors:
-      - name: shahd
-        role: edit
-      - name: ibra
-        role: view
-
-
+- name: group1
+  owner:
+    kind: User
+    name: admin
+  resources:
+    hard:
+      limits.cpu = "1"
+  contributors:
+  - name: shahd
+    role: admin
+  - name: ahmed
+    role: edit
+  - name: shahad
+    role: view
+- name: group2
+  owner:
+    kind: User
+    name: admin
+  contributors:
+  - name: sara
+    role: edit
+  - name: jomana
+    role: edit
+  resources: {}
